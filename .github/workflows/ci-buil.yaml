@@ -45,7 +45,7 @@ jobs:
 
     steps:
       - name: Run Trivy vulnerability scanner
-        uses: aquasecurity/trivy-action@0.20.0
+        uses: aquasecurity/trivy-action@0.29.0
         with:
           image-ref: ${{ secrets.DOCKER_USERNAME }}/devops-static-website:latest
           format: table
