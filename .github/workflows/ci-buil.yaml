@@ -13,7 +13,7 @@ jobs:
   build:
     # Utiliser la dernière version d'Ubuntu
     #runs-on: ubuntu-latest
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
 
     # Étapes à exécuter
     steps:
